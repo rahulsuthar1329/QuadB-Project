@@ -18,6 +18,7 @@
   justify-content: center;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
   padding: 30px 0;
+  width: 400px;
   border-radius: 10px;
 }
 .container form h4 {
@@ -31,4 +32,16 @@
 .container input,
 button {
   width: 250px;
+}
+
+@media (max-width: 992px) and (min-width: 480px) {
+  .container form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container form {
+    width: 80%;
+  }
 }

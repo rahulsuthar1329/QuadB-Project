@@ -23,6 +23,6 @@
     grid-template-columns: auto auto;
   }
   .card {
-    width: 13rem !important;
+    width: 12rem !important;
   }
 }

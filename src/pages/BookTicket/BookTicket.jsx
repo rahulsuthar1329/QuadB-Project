@@ -33,7 +33,7 @@ const BookTicket = () => {
 
   return (
     <div className={styles.container}>
-      <form style={{ width: "400px" }}>
+      <form>
         <h4>Book Ticket Online</h4>
         <div className="form-group">
           <h5>Movie : {location?.state?.movie}</h5>
@@ -64,6 +64,7 @@ const BookTicket = () => {
             className="form-control"
             id="date"
             value={date}
+            placeholder="Enter Date"
             onChange={handleChange(setDate)}
           />
         </div>

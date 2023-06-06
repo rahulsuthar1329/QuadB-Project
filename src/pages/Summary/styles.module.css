@@ -29,6 +29,9 @@
   flex-direction: column;
   gap: 10px;
 }
+.image .details button {
+  font-size: 15px;
+}
 .content {
   flex: 2;
   display: flex;
@@ -42,6 +45,7 @@
   color: white;
   padding: 80px;
 }
+
 @media (max-width: 992px) {
   .container {
     flex-direction: column;
@@ -50,6 +54,9 @@
   .image {
     flex-direction: row;
     padding-bottom: 50px;
+  }
+  .details h4 {
+    font-size: 20px;
   }
   .image img {
     width: 30%;
