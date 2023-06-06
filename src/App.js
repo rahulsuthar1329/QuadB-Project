@@ -1,4 +1,3 @@
-import "./App.css";
 import Homepage from "./pages/Homepage/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Summary from "./pages/Summary/Summary";
